@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensenger fake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <span>B</span><span>a</span><span>t</span><span>e</span><span>-</span><span>p</span><span>a</span><span>p</span><span>o</span>
+    </header>
+
+    <!-- Div de todo o conteudo -->
+    <div class="containerGeral">
+        <div class="contatos">
+            <div id="origem">
+                <!-- Botão Origem input origem-->
+                <h3>Origem:</h3>
+                <input type="text" id="origemInput" name="origemInput" placeholder="Nome do Úsuario" value="" />
+                <button class="botaoOrigem" id="enviarMsg" onclick="mensagem()"><b>Enviar</b></button>
+                <!-- Fim: Botão Origem input origem-->
+            </div>
+            <div id="destino">
+                <!-- Botão Destino input destino-->
+                <h3>Destino:</h3>
+                <input type="textD" id="destinoInput" name="destinoInput" placeholder="Nome do Úsuario" value="" />
+                <button class="botaoDestino" id="enviarMsg" onclick="mensagem()"><b>Enviar</b></button>
+                <!-- Botão Destino input destino-->
+            </div>
+        </div>
+        <div class="mensagens">
+            <!--Div mensagens de Juliana-->
+            <div id="containerJuliana">
+                <p></p>
+            </div>
+            <!-- Fim de Div Mensagens de Juliana-->
+        </div>
+
+        <div id="botaoEnviar">
+            <button class="button" id="enviarButton" onclick="chat.enviar()"><b>Enviar</b></button>
+
+            <!-- Fim de Div Mensagens de Ygor-->
+        </div>
+
+        <div class="texto">
+            <textarea id="text" placeholder="Aa" name="msg" required></textarea>
+        </div>
+
+        <!-- Fim de Div de todo o conteudo -->
+    </div>
+</body>
+
+</html>

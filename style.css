@@ -1,0 +1,140 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(153, 166, 241, 0.68);
+    font-family:Arial, Helvetica, sans-serif ;   
+}
+
+/* Titulo do Chat */
+header {
+    position: relative;
+    font-size: 8vh;
+    border-radius: 10px;
+    margin-left: 49vh;
+    width: 51%;
+    height: 15vh;
+    margin-top: 2vh;
+    padding: 13px;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(188, 142, 218) 20%, rgb(138, 93, 209) 38%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+/* Fim Titulo do Chat */
+}
+.containerGeral{
+    position: relative;
+    border: 2px solid rgb(200, 115, 249);
+    background-color: rgba(200, 115, 249, 0.333);
+    border-radius: 30px;
+    height: 650px;
+    width: 400px;
+    margin-left: 500px;
+}
+/* div origem e destino */
+#origem{
+    background-color: rgba(150, 95, 187, 0.655);
+    height: 150px;
+    margin-top: -20px;
+    border-radius: 30px;
+}
+/* Botão Origem */
+.botaoOrigem{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgba(152, 95, 190, 0.637);
+    color:rgb(0, 0, 0);
+}
+.botaoOrigem:hover{
+    background-color: rgb(242, 232, 237);
+    color: #000;
+}
+/* fim de botão origem */
+#destino{
+    position: absolute;
+    top: 30px;
+}
+/* Botão destino */
+.botaoDestino{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(147, 101, 183);
+    color:rgb(0, 0, 0);
+}
+.botaoDestino:hover{
+    background-color: rgb(252, 187, 242);
+    color: #000;
+}
+/* fim de botão destino */
+/* input de origem e de destino */
+#destinoInput{
+    position: relative;
+    /* posição */
+    margin-left: 120px;
+    /* comprimento */
+    width: 150px;
+    /* largura */
+    height: 20px;
+}
+#origemInput{
+    position: relative;
+    /* posição */
+    margin-left: 120px;
+    /* comprimento */
+    width: 150px;
+    /* largura */
+    height: 20px;
+}
+/* fim de input origem e destino */
+
+/* h3 de origem e de destino */
+h3{
+    position: relative;
+    margin-left:30px;
+    top: 45px;
+    font-size: 20px;
+}
+/* Fim de h3 origem e destino */
+
+.mensagens #containerJuliana{
+    position: relative;
+    margin-left: 320px;
+    font-size: 18px;
+}
+/* area de digitar a mensagem */
+.texto #text{
+    position: relative;
+    border: 1px solid rgb(252, 239, 247);
+    background-color: rgb(252, 239, 247);
+    width: 260px;
+    height: 60px;
+    left: 10px;
+    top: -68px;
+    resize: none;
+    
+}
+/* fim de area de digitar a mensagem */
+
+/* botão enviar mensagens */
+#botaoEnviar .button {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    margin-top: 420px;
+    margin-left: 280px;
+    font-size: 16px;
+    color: rgb(0, 0, 0); 
+    border: 1px solid rgba(217, 16, 207, 0.79);
+    border-radius: 10px;
+  }
+#botaoEnviar .button:hover {
+    background-color: rgba(239, 155, 221, 0.856);
+    color: rgb(0, 0, 0);
+  }
+  /* Fim de botão enviar Mensagem */
