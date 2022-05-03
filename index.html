@@ -17,41 +17,40 @@
     <!-- Div de todo o conteudo -->
     <div class="containerGeral">
         <div class="contatos">
+            <!-- Botão Origem input origem-->
             <div id="origem">
-                <!-- Botão Origem input origem-->
                 <h3>Origem:</h3>
-                <input type="text" id="origemInput" name="origemInput" placeholder="Nome do Úsuario" value="" />
-                <button class="botaoOrigem" id="enviarMsg" onclick="mensagem()"><b>Enviar</b></button>
-                <!-- Fim: Botão Origem input origem-->
+                <input type="text" id="origemInput" name="origemInput" placeholder="Nome do Úsuario" />
             </div>
-            <div id="destino">
-                <!-- Botão Destino input destino-->
-                <h3>Destino:</h3>
-                <input type="textD" id="destinoInput" name="destinoInput" placeholder="Nome do Úsuario" value="" />
-                <button class="botaoDestino" id="enviarMsg" onclick="mensagem()"><b>Enviar</b></button>
-                <!-- Botão Destino input destino-->
+            <!-- Fim: Botão Origem input origem-->
+
+                    <!-- Botão Destino input destino-->
+                    <div id="destino">
+                        <h3>Destino:</h3>
+                        <input type="text" id="destinoInput" name="destinoInput" placeholder="Nome do Úsuario" />
+                    </div>
+                     <!-- Botão Destino input destino-->
+        </div>
+            <div class="mensagens">
+                <!--Div mensagens de Juliana-->
+                    <div id="containerJuliana">
+                        <p></p>
+                    </div>
+                <!-- Fim de Div Mensagens de Juliana-->
             </div>
-        </div>
-        <div class="mensagens">
-            <!--Div mensagens de Juliana-->
-            <div id="containerJuliana">
-                <p></p>
-            </div>
-            <!-- Fim de Div Mensagens de Juliana-->
-        </div>
 
-        <div id="botaoEnviar">
-            <button class="button" id="enviarButton" onclick="chat.enviar()"><b>Enviar</b></button>
+                    <div id="botaoEnviar">
+                        <button class="button" id="botaoEnviar" onclick="texto()"><b>Enviar</b></button>
+                    </div>
 
-            <!-- Fim de Div Mensagens de Ygor-->
-        </div>
+                            <div class="texto">
+                                <textarea id="mensagem" placeholder="Aa" name="msg" required></textarea>
+                            </div>
 
-        <div class="texto">
-            <textarea id="text" placeholder="Aa" name="msg" required></textarea>
-        </div>
-
-        <!-- Fim de Div de todo o conteudo -->
     </div>
+    <!-- Fim de Div de todo o conteudo -->
+
+    <script src="./main.js"></script>
 </body>
 
 </html>

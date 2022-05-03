@@ -4,8 +4,8 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(153, 166, 241, 0.68);
-    font-family:Arial, Helvetica, sans-serif ;   
+    background-color: rgba(225, 208, 253, 0.902);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
 
 /* Titulo do Chat */
@@ -20,7 +20,7 @@ header {
     padding: 13px;
     text-align: center;
     font-weight: bold;
-    background: linear-gradient(to right, rgb(188, 142, 218) 20%, rgb(138, 93, 209) 38%);
+    background: linear-gradient(to right, rgb(214, 87, 243) 20%, rgb(224, 131, 243) 68%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -28,68 +28,54 @@ header {
 }
 .containerGeral{
     position: relative;
-    border: 2px solid rgb(200, 115, 249);
-    background-color: rgba(200, 115, 249, 0.333);
+    border: 2px solid rgb(204, 129, 245);
+    background-color: rgba(241, 240, 240, 0.607);
     border-radius: 30px;
     height: 650px;
     width: 400px;
-    margin-left: 500px;
+    margin-left: 420px;
+}
+.contatos{
+    position: relative;
+    background-color: rgba(213, 117, 232, 0.769);
+    height: 180px;
+   
+    /* margin-top: -5px; */
+    border-radius: 30px;
+    top: -20px;
 }
 /* div origem e destino */
 #origem{
-    background-color: rgba(150, 95, 187, 0.655);
-    height: 150px;
-    margin-top: -20px;
-    border-radius: 30px;
+    position: relative;
+    top: -40px
+   
+
 }
-/* Botão Origem */
-.botaoOrigem{
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
-    border: 1px solid rgba(152, 95, 190, 0.637);
-    color:rgb(0, 0, 0);
-}
-.botaoOrigem:hover{
-    background-color: rgb(242, 232, 237);
-    color: #000;
-}
-/* fim de botão origem */
 #destino{
-    position: absolute;
-    top: 30px;
+    position: relative;
+    top: -50px;
 }
-/* Botão destino */
-.botaoDestino{
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
-    border: 1px solid rgb(147, 101, 183);
-    color:rgb(0, 0, 0);
-}
-.botaoDestino:hover{
-    background-color: rgb(252, 187, 242);
-    color: #000;
-}
-/* fim de botão destino */
+
 /* input de origem e de destino */
 #destinoInput{
     position: relative;
     /* posição */
     margin-left: 120px;
     /* comprimento */
-    width: 150px;
+    width: 240px;
     /* largura */
     height: 20px;
+    outline: none; 
 }
 #origemInput{
     position: relative;
     /* posição */
     margin-left: 120px;
     /* comprimento */
-    width: 150px;
+    width: 240px;
     /* largura */
     height: 20px;
+    outline: none; 
 }
 /* fim de input origem e destino */
 
@@ -108,16 +94,17 @@ h3{
     font-size: 18px;
 }
 /* area de digitar a mensagem */
-.texto #text{
+.texto #mensagem{
     position: relative;
     border: 1px solid rgb(252, 239, 247);
     background-color: rgb(252, 239, 247);
     width: 260px;
-    height: 60px;
-    left: 10px;
+    height: 100px;
+    left: 20px;
     top: -68px;
     resize: none;
-    
+    /* fora da linha, tirando a borda preta */
+    outline: none; 
 }
 /* fim de area de digitar a mensagem */
 
@@ -126,15 +113,15 @@ h3{
     position: relative;
     width: 100px;
     height: 40px;
-    margin-top: 420px;
-    margin-left: 280px;
+    margin-top: 330px;
+    margin-left: 290px;
     font-size: 16px;
     color: rgb(0, 0, 0); 
-    border: 1px solid rgba(217, 16, 207, 0.79);
+    border: 1px solid rgba(219, 142, 249, 0.79);
     border-radius: 10px;
   }
 #botaoEnviar .button:hover {
-    background-color: rgba(239, 155, 221, 0.856);
+    background-color: rgba(185, 122, 237, 0.856);
     color: rgb(0, 0, 0);
   }
   /* Fim de botão enviar Mensagem */
